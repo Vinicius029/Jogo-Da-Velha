@@ -1,10 +1,10 @@
 from random import randint
-from time import sleep
 
 
 class Maquina():
 
     def computador(self, jogadas, quemJoga, maxJogada,velha):
+        """FUNÇÃO DO COMPUTADOR"""
         if quemJoga == 1 and jogadas < maxJogada:
             linha = randint(0,2)
             coluna = randint(0,2)

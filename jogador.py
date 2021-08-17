@@ -1,6 +1,7 @@
 class Jogador():
     
     def jogador(self, jogadas, quemJoga, maxJogada, velha):
+        """FUNÇÃO DO JOGADOR"""
         if quemJoga == 2 and jogadas <  maxJogada:
             try: 
                 linha = int(input('Linha:'))
